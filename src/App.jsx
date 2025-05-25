@@ -7,7 +7,7 @@ function App() {
   
   return (
     <div className="game-container">
-      <div className="score">school: {score}</div>
+      <div className="score">incoding: {score}</div>
       <GameCanvas onScore={() => setScore(score + 1)} />
     </div>
   );
